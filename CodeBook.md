@@ -1,6 +1,8 @@
 
 Codebook
+
 The purpose of this file set is to transform the given raw data to a tidy set.
+
 Transformation steps, variables, and data set information is as follows
 
 
@@ -27,23 +29,34 @@ III. R script description
 -------------------------
 
 1. Merge the training and the test sets to create one data set.
+
 1a: Merge the signals, training and the test sets to create one data set.
+
 1b: Merge the activity, training and the test sets to create one data set.
+
 1c: Merge the subjects, training and the test sets to create one data set.
+
 1d: Load column names / variable names to a data frame
+
 1e: Change the column names of the data frame with the combined signals using the features.txt file 
 
 2. Extract only the measurements on the mean and standard deviation for each measurement. 
 Create a new data frame that has a subset of only mean and std columns from the signals 
 
 3. Use descriptive activity names to name the activities in the data set
+
 3a: Load activity code/description reference file to a data frame
+
 3b: Overwrite the activity data frame with a joined activity-data and reference-data frames to get the activity descriptions 
 
 4. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 4a: Column bind the subject-data with activity-data and make the column names descriptive
+
 4b: Column bind the above with the signals data frame (that has only means and std) 
+
 4c: get the average or mean of each variable/column group by subject and activity
+
 4d: write the results to a text file as the new tidy data set
 
 
