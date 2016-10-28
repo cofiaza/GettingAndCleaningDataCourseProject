@@ -28,7 +28,7 @@ II. Transformation Steps
 III. R script description
 -------------------------
 
-1. Merge the training and the test sets to create one data set.
+Step 1. Merge the training and the test sets to create one data set.
 
 1a: Merge the signals, training and the test sets to create one data set.
 
@@ -40,16 +40,16 @@ III. R script description
 
 1e: Change the column names of the data frame with the combined signals using the features.txt file 
 
-2. Extract only the measurements on the mean and standard deviation for each measurement. 
+Step 2. Extract only the measurements on the mean and standard deviation for each measurement. 
 Create a new data frame that has a subset of only mean and std columns from the signals 
 
-3. Use descriptive activity names to name the activities in the data set
+Step 3. Use descriptive activity names to name the activities in the data set
 
 3a: Load activity code/description reference file to a data frame
 
 3b: Overwrite the activity data frame with a joined activity-data and reference-data frames to get the activity descriptions 
 
-4. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+Step 4. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 4a: Column bind the subject-data with activity-data and make the column names descriptive
 
