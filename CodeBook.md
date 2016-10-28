@@ -74,7 +74,7 @@ V. Variables
 
 1. The variables are all signals coming from wearable devices.  
 2. These signals are, in particular, the accelerometer and gyroscope 3-axial raw signals brought about by specific activities from different wearers/subjects. 
-3. More information about how these signals were gathered in the features_info.txt file included in the downloadable raw data zip file.
+3. More information about how these signals were gathered and the particulars of the signals in the features_info.txt file included in the downloadable raw data zip file.
 
 
 
